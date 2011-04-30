@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-us" xml:lang="en-us">
+	<head>
+		<title>SlideRotator</title>
+	
+		<!-- Include the required files (see slideRotator.js for more information) -->
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="slideRotator.js"></script>
+	
+	</head>
+	
+	<body onload="slideRotatorInit();"> <!-- Initialize the SlideRotator component -->
+	
+		<!--
+			This is where the component will appear; you may style this <div>
+			using CSS without interfering with its contents
+		-->
+		
+		<h1>SlideRotator Test Page</h1>
+	
+		<!--
+			SlideRotator Component
+			
+			To customize the images that appear in the component,
+			modify the code in the slideRotator.js file included
+			in the ZIP file.
+		-->
+		<div id="slideRotator">		
+			<!-- If Javascript is disabled, the user will simply see the ALT text of this image -->
+			<img name="slideRotator" alt="SlideRotator Component" src="#" border="0" class="slideRotator" />
+		</div>
+		
+		<p>
+			SlideRotator was created by <a href="http://www3.telus.net/crabl/" target="_blank">Christopher Rabl</a> and makes use
+			of the <a href="http://www.jquery.com" target="_blank">jQuery</a> Javascript library.<br />It is licensed under the
+			<a href="http://www.gnu.org/licenses/" target="_blank">GNU General Public License</a> for open-source distribution.
+		</p>
+	
+	</body>
+</html>
